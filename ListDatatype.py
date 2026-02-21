@@ -34,3 +34,36 @@ print(name[-5])
 
 print(name[2:5])
 print(name[5:7])
+
+# By leaving out the start value the range will start at the first item
+print(name[:5])
+
+# By leaving out the end value the range will go on to the end of the list
+
+print(name[2:])
+print(name[0:])
+print(name[:])
+
+# Python Change List item
+
+# To change the value of a specific item refer to the index number
+
+print(name)
+name[2] = "Ramesh"
+print(name)
+
+# Change a range of item values
+# To change the value items within a specific range, define a list with the new values and
+# refer to the range of index numbers where you want to insert the new values.
+
+print(name)
+name[2:5] = ["bittu", "harshita","Gaurav"]
+print(name)
+
+# If you insert more items than you replace
+
+#Append()
+# To add an item to the end of the list use the append() method
+
+name.append("mayur")
+print(name)
