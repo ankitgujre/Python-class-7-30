@@ -67,3 +67,94 @@ print(name)
 
 name.append("mayur")
 print(name)
+
+# insert items
+# To insert a list item at a specified index, use the insert() method.
+# The insert method items an items at the specified index.
+
+name = ["sonu", "sanjay", "sandeep"]
+name.insert(1, "sameer")
+print(name)
+
+'''
+Extend list
+To append elements from another list to the current lis, use the extend() method.
+
+'''
+
+name1 = ["manish", "sanju", "rupal"]
+name.extend(name1)
+print(name)
+
+'''
+The extend() method does not have to append list. you can add any iterable object(tuples, set, dictionaries etc.)
+
+'''
+
+name1 = ("manish", "sanju", "rupal")
+name.extend(name1)
+print(name)
+
+name[8] = "Ankit"
+print(name)
+
+'''
+Remove List item
+The remove() method removes the specified item
+'''
+name1 = ["manish", "sanju", "rupal"]
+name1.remove("sanju")
+print(name)
+
+'''
+The pop() method removes the specified index.
+'''
+
+name.pop(2)
+print(name)
+
+'''
+the del key word also removes the specified index
+'''
+# The del keyword can also delete the list completely
+
+thislist = ["apple", "Banana", "Papaya"]
+del thislist[1]
+print(thislist)
+
+# clear() method empties the list
+# the list still remains but it has no contents
+
+thislist.clear()
+print(thislist)
+
+'''
+Sort list
+Sort list alphanumerically
+List objects have a sort() method that will sort the list alphanumerically, ascending by default
+'''
+thislist = ["Apple", "Banana", "Papaya"]
+thislist.sort()  # ascii value ke according sort hogi
+print(thislist)
+thislist.sort(reverse=True) # to sort descending use the keyword argument reverse = True
+print(thislist)
+
+# Revers method
+'''
+The reverse() method reverses the current sorting order of the elements.
+'''
+thislist.reverse()
+print(thislist)
+
+# copy a list
+'''
+There are ways to make a copy one way is to use the built-in list method copy()
+make a copy of a list with the copy() method:
+
+'''
+
+a = ["sonu", "amit", "rahul"]
+b = ["su", "amt", "ra"]
+
+myname = a.copy()
+print(myname)
