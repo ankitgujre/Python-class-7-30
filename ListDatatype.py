@@ -158,3 +158,8 @@ b = ["su", "amt", "ra"]
 
 myname = a.copy()
 print(myname)
+
+'''
+Another way to make a copy is to use the built-in method list()
+myname = list(name)
+'''
