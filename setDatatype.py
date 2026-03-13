@@ -69,7 +69,8 @@ print(naam.clear())
 Python join two set
 There are several ways to join two or more sets in python
 
-You can use the union() method that returns a new set containing all items from both sets, or the update() method that insert all the items from one set into another  
+You can use the union() method that returns a new set containing all items from both sets, 
+or the update() method that insert all the items from one set into another  
 
 The union method returns a new set with all items fro both set
 '''
@@ -91,7 +92,8 @@ the intersection_update() method will keep only  the items that are present in b
 # n.intersection_update(a)   # n modify ho jayega
 # print(n)
 
-# The intersection() method will return a new set, that only contains the items that are present in both set
+# The intersection() method will return a new set, that only contains the items that are present 
+#  in both set
 
 a = {"abc","def","ghi"}
 n = {"raju", "sanju", "anju","abc"}
