@@ -110,7 +110,24 @@ This method returns a sequence of keys from the dictionary
 values() method
 This method returns a sequence of values from the dictionary
 '''
-new = stu.values()
-print(new)   # dict_values(['Ankit', 'Amit', 'Sumit'])
+# new = stu.values()
+# print(new)   # dict_values(['Ankit', 'Amit', 'Sumit'])
 
+''''
+Dictionary update() method
+This method is used to update the dictionary with specified key value pair
 
+'''
+# stu.update({105: "update"})
+# print(stu)
+
+'''
+pop() method
+This method is removed the item with specified key. 
+It returns the removed items value
+If key is not found then a default value is returned
+'''
+
+# x = stu.pop(105, "not found")
+# print(x)
+# print(stu)
