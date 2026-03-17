@@ -66,8 +66,19 @@ wap to count character in cybrom
 # print(count)
 
 '''
-wap to print number in reverse order
+wap to print number in reverse order 10 to 1
 '''
 
 for i in range(10, 0,-1):
     print(i)
+
+
+'''
+wap to print  umbers in reverse order
+'''
+num = [1,2,3,4,5,6]
+
+for i in num:
+    rev = num[::-1]
+
+print(rev)
