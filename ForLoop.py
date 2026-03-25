@@ -28,8 +28,8 @@ The range() function returns a sequence of number
 # for x in range(6):
 #     print(x)
 
-# for c in range(3, 11):
-#     print(c)
+for c in range(3, 11):
+    print(c)
 
 # for c in range(20, 31):
 #     print(c)
